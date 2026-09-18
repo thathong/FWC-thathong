@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+</head>
+<style>
+    body {
+        background-color: rgb(245, 193, 245);
+    }
+
+    .shop-container {
+        display: flex;
+        /* Makes the two shop-items sit side-by-side */
+        justify-content: center;
+        /* Centers the whole group on the page */
+        gap: 50px;
+        /* Adds space between the two shops */
+    }
+
+    .shop-item {
+        text-align: center;
+        /* Ensures the link stays centered under the image */
+    }
+
+    .shop-item img {
+        display: block;
+        /* Helps with spacing */
+        margin-bottom: 10px;
+        /* Creates a small gap between image and link */
+    }
+    hr {
+            /* Requirement: Horizontal line that separates the page */
+            border: 0;
+            height: 1px;
+            background: white;
+            width: 100%;
+        }
+    .footer {
+            /* Requirement: Aligned right, italic, monospace, specific text */
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+        }
+</style>
+
+<body>
+    <h1 style="text-align: center; color: white;">-so bigger🐴-</h1>
+    <div class="shop-container">
+        <div class="shop-item">
+            <img src="https://img.freepik.com/free-vector/linear-style-japanese-ice-cream-shop_52683-45003.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="Amazon logo"> 
+                <br>
+            <a href="https://www.freepik.com/vectors/japanese-market" target="_blank">Visit shop 1</a>
+        </div>
+
+        <div class="shop-item">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-japanese-ramen-shop_52683-45002.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="eBay logo">
+                <br>
+            <a href="https://www.freepik.com/vectors/japanese-market" target="_blank">Visit shop 2</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="footer">&copy; wil 2026</p>
+</body>
+
+</html>
